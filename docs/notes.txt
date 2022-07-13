@@ -1,0 +1,111 @@
+
+-------------------------------------------------------------------------------------------
+
+http://localhost:8080/h2-console/login.jsp?jsessionid=59be7b579afcab958324206c40a0fea5
+
+-------------------------------------------------------------------------------------------
+
+/home/wolf/develop-sources/java/jdk/jdk-11.0.15/bin/java -javaagent:/home/wolf/Documents/isos-installs/ideaIC-2022.1.1/idea-IC-221.5591.52/lib/idea_rt.jar=35873:/home/wolf/Documents/isos-installs/ideaIC-2022.1.1/idea-IC-221.5591.52/bin -Dfile.encoding=UTF-8 -classpath /home/wolf/desenvolvimento/udemy/bookstore/target/classes:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.6.9/spring-boot-starter-data-jpa-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.6.9/spring-boot-starter-aop-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/spring-aop/5.3.21/spring-aop-5.3.21.jar:/home/wolf/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.6.9/spring-boot-starter-jdbc-2.6.9.jar:/home/wolf/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/home/wolf/.m2/repository/org/springframework/spring-jdbc/5.3.21/spring-jdbc-5.3.21.jar:/home/wolf/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/home/wolf/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/home/wolf/.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.jar:/home/wolf/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/wolf/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar:/home/wolf/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/wolf/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/wolf/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/wolf/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/wolf/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar:/home/wolf/.m2/repository/org/glassfish/jaxb/txw2/2.3.6/txw2-2.3.6.jar:/home/wolf/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/wolf/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/wolf/.m2/repository/org/springframework/data/spring-data-jpa/2.6.5/spring-data-jpa-2.6.5.jar:/home/wolf/.m2/repository/org/springframework/data/spring-data-commons/2.6.5/spring-data-commons-2.6.5.jar:/home/wolf/.m2/repository/org/springframework/spring-orm/5.3.21/spring-orm-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-context/5.3.21/spring-context-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-tx/5.3.21/spring-tx-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-beans/5.3.21/spring-beans-5.3.21.jar:/home/wolf/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/wolf/.m2/repository/org/springframework/spring-aspects/5.3.21/spring-aspects-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.6.9/spring-boot-starter-validation-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.9/spring-boot-starter-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.9/spring-boot-starter-logging-2.6.9.jar:/home/wolf/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/wolf/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/wolf/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/home/wolf/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/home/wolf/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/home/wolf/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/wolf/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/wolf/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.64/tomcat-embed-el-9.0.64.jar:/home/wolf/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.jar:/home/wolf/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.9/spring-boot-starter-web-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.9/spring-boot-starter-json-2.6.9.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/home/wolf/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.9/spring-boot-starter-tomcat-2.6.9.jar:/home/wolf/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.64/tomcat-embed-core-9.0.64.jar:/home/wolf/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.64/tomcat-embed-websocket-9.0.64.jar:/home/wolf/.m2/repository/org/springframework/spring-web/5.3.21/spring-web-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-webmvc/5.3.21/spring-webmvc-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-expression/5.3.21/spring-expression-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-devtools/2.6.9/spring-boot-devtools-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot/2.6.9/spring-boot-2.6.9.jar:/home/wolf/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.9/spring-boot-autoconfigure-2.6.9.jar:/home/wolf/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar:/home/wolf/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/wolf/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/wolf/.m2/repository/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar:/home/wolf/.m2/repository/org/springframework/spring-jcl/5.3.21/spring-jcl-5.3.21.jar com.mvbr.bookstore.BookstoreApplication
+22:01:55.124 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6211e5ad
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.9)
+
+2022-07-12 22:01:55.868  INFO 279834 --- [  restartedMain] com.mvbr.bookstore.BookstoreApplication  : Starting BookstoreApplication using Java 11.0.15 on Inspiron-5566 with PID 279834 (/home/wolf/desenvolvimento/udemy/bookstore/target/classes started by wolf in /home/wolf/desenvolvimento/udemy/bookstore)
+2022-07-12 22:01:55.870  INFO 279834 --- [  restartedMain] com.mvbr.bookstore.BookstoreApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-12 22:01:55.973  INFO 279834 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-12 22:01:55.973  INFO 279834 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-12 22:01:56.912  INFO 279834 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-12 22:01:56.962  INFO 279834 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2022-07-12 22:01:57.735  INFO 279834 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-12 22:01:57.748  INFO 279834 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-12 22:01:57.749  INFO 279834 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-12 22:01:57.819  INFO 279834 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-12 22:01:57.819  INFO 279834 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1846 ms
+2022-07-12 22:01:57.866  INFO 279834 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-12 22:01:58.104  INFO 279834 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-12 22:01:58.118  INFO 279834 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/test'
+2022-07-12 22:01:58.228  INFO 279834 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-12 22:01:58.263  INFO 279834 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-12 22:01:58.393  INFO 279834 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-12 22:01:58.497  INFO 279834 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate:
+
+    drop table if exists categoria CASCADE
+Hibernate:
+
+    drop table if exists livro CASCADE
+Hibernate:
+
+    create table categoria (
+       id bigint generated by default as identity,
+        descricao varchar(255),
+        nome varchar(255),
+        primary key (id)
+    )
+Hibernate:
+
+    create table livro (
+       id bigint generated by default as identity,
+        nome varchar(255),
+        nome_autor varchar(255),
+        texto varchar(255),
+        categoria_id bigint,
+        primary key (id)
+    )
+Hibernate:
+
+    alter table livro
+       add constraint FK823wf30ms4bomdmqk9xekpv6c
+       foreign key (categoria_id)
+       references categoria
+2022-07-12 22:01:59.062  INFO 279834 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-12 22:01:59.069  INFO 279834 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-12 22:01:59.487  WARN 279834 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-12 22:01:59.832  INFO 279834 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-12 22:01:59.868  INFO 279834 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-12 22:01:59.880  INFO 279834 --- [  restartedMain] com.mvbr.bookstore.BookstoreApplication  : Started BookstoreApplication in 4.738 seconds (JVM running for 5.469)
+Hibernate:
+    insert
+    into
+        categoria
+        (id, descricao, nome)
+    values
+        (default, ?, ?)
+Hibernate:
+    insert
+    into
+        livro
+        (id, categoria_id, nome, nome_autor, texto)
+    values
+        (default, ?, ?, ?, ?)
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
